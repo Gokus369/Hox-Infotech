@@ -201,7 +201,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Send WhatsApp message function
     function sendWhatsAppMessage(message) {
-        const encodedMessage = encodeURIComponent(message);
+        const
+            encodedMessage = encodeURIComponent(message);
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
         window.open(whatsappUrl, '_blank');
         closeModal();
