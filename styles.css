@@ -19,8 +19,8 @@
     --shadow-heavy: 0 8px 30px rgba(0, 0, 0, 0.2);
     --border-radius: 12px;
     --transition: all 0.3s ease;
-    --font-primary: 'Poppins', sans-serif;
-    --font-secondary: 'Open Sans', sans-serif;
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
 }
 
 /* Reset and Base Styles */
